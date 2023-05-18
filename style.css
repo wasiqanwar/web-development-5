@@ -1,0 +1,50 @@
+body {
+  background-color: midnightblue;
+  color: midnightblue;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+.tasksMain {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.tasksCategory {
+  width: 45%;
+  background-color: lavenderblush;
+  border: solid 1px;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.taskDesign{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.taskDetails{
+  width: 500px;
+}
+
+.taskDate{
+  width: 90px;
+  font-size: 11px;
+}
+
+.taskDeleteBtn{
+  width: 100px;
+}
+
+.statusChangeBtn{
+  width: 100px;
+}
